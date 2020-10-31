@@ -37,7 +37,7 @@ def main(color1, color2):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="You're Invited to Suffer!")
-    parser.add_argument('--color1', help="Text&Buttons Color [1,2,3,4,5,6,7]" ,type=int, default=2)
+    parser.add_argument('--color1', help="Text&Buttons Color [1,2,3,4,5,6,7]" ,type=int, default=3)
     parser.add_argument('--color2', help="Box Color [1,2,3,4,5,6,7]" ,type=int, default=1)
     args = parser.parse_args()
 
